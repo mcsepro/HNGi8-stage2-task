@@ -60,10 +60,10 @@
     "ext-libsodium": "PHP < 7.0: Better performance, password hashing (Argon2i), secure memory management (memzero), and better security.",
     "ext-sodium": "PHP >= 7.0: Better performance, password hashing (Argon2i), secure memory management (memzero), and better security."
   
-  "post-install-cmd": [
+  "post-install-cmd":{
      "php artisan clear-compiled",
      "chmod -R 777 public/"
-  ]
+  }
   }
   
 }
